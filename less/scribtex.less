@@ -1,0 +1,78 @@
+@mainBlue:       #346CB7;
+@blueBorder:     #D0DAF0;
+@blueBackground: #E6F3FF;
+
+body {
+  background-image: url(/images/background-gradient.png);
+  background-repeat: repeat-x;
+}
+
+.navbar-inner {
+  background: none;
+  .box-shadow(none);
+  padding: 0;
+}
+
+.navbar {
+  .dropdown-toggle .caret {
+    .opacity(100);
+  }
+
+  .dropdown.open .dropdown-toggle {
+    color: @linkColor;
+  }
+
+  .dropdown-menu .user-menu-heading {
+    padding: 5px 15px;
+    .user-name {
+      padding-left: 5px;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.full-page-nav-tabs {
+  margin-bottom: 0;
+}
+
+.full-page-tab-content .tab-pane {
+  background-color: #FFF;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  padding: 8px 25px;
+}
+
+.project-well {
+  .border-radius(0);
+  .box-shadow(none);
+  background-color: @blueBackground;
+  border-color: @blueBorder;
+  padding: 8px 12px 4px 28px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+
+  background-image: url('/images/icons/project.png');
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
+.new-project-well {
+  .border-radius(0);
+  .box-shadow(none);
+  background-color: @grayLighter;
+  border-color: @grayLight;
+  padding: 8px 12px 4px 28px;
+  margin-bottom: 8px;
+
+  background-image: url('/images/icons/new_project.png');
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
+.scribtex-footer {
+  padding-top: 20px;
+}
