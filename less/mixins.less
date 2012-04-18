@@ -557,6 +557,22 @@
     .spanX (@gridColumns);
     .offsetX (@gridColumns);
 
+    
+    @tabScale: (@gridRowWidth - 2*@tabContentHorizontalPadding - 2px) / @gridRowWidth;
+    
+    .spanX-in-tab (@index) when (@index > 0) {
+      (~".span@{index}") { .span-in-tab(@index); }
+      .spanX-in-tab(@index - 1);
+    }
+    .spanX-in-tab (0) {}
+    
+    .span-in-tab (@columns) {
+      width: ((@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns - 1))) * @tabScale - 1;
+    }
+
+    .full-page-tab-content {
+      .spanX-in-tab (@gridColumns);
+    }
   }
 
   .fluid (@fluidGridColumnWidth, @fluidGridGutterWidth) {
@@ -583,6 +599,10 @@
       }
 
       // generate .spanX
+      .spanX (@gridColumns);
+    }
+
+    .full-page-tab-content {
       .spanX (@gridColumns);
     }
 
