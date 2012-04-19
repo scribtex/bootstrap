@@ -76,3 +76,13 @@ body {
 .scribtex-footer {
   padding-top: 20px;
 }
+
+.errorExplanation {
+  .alert;
+  .alert-error;
+}
+
+.fieldWithErrors {
+  display: inline;
+  .formFieldState(@errorText, @errorText, @errorBackground);
+}
