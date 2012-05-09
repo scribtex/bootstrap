@@ -2,18 +2,17 @@
 @blueBorder:     #D0DAF0;
 @blueBackground: #E6F3FF;
 
+
 body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body.application {
   background-image: url(/images/background-gradient.png);
   background-repeat: repeat-x;
 }
 
-.navbar-inner {
-  background: none;
-  .box-shadow(none);
-  padding: 0;
-}
-
-.navbar {
+.navbar-application {
   .dropdown-toggle .caret {
     .opacity(100);
   }
@@ -32,6 +31,16 @@ body {
       height: 40px;
     }
   }
+
+  .navbar-inner {
+    background: none;
+    .box-shadow(none);
+    padding: 0;
+  }
+}
+
+.navbar-editor {
+  margin-bottom: 0;
 }
 
 .full-page-nav-tabs {
