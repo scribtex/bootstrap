@@ -324,8 +324,8 @@
 // Gradient Bar Colors for buttons and alerts
 .gradientBar(@primaryColor, @secondaryColor) {
   #gradient > .vertical(@primaryColor, @secondaryColor);
-  border-color: @secondaryColor @secondaryColor darken(@secondaryColor, 15%);
-  border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) fadein(rgba(0,0,0,.1), 15%);
+  border-color: @secondaryColor;
+  border-color: rgba(0,0,0,.1);
 }
 
 // Gradients
@@ -436,9 +436,8 @@
   }
 
   &.disabled:hover, &[disabled]:hover {
-    // Copied from .gradientBar
-    border-color: @endColor @endColor darken(@endColor, 15%);
-    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) fadein(rgba(0,0,0,.1), 15%);
+    border-color: @endColor;
+    border-color: rgba(0,0,0,.1);
   }
 
   // IE 7 + 8 can't handle box-shadow to show active, so we darken a bit ourselves
