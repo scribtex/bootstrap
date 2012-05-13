@@ -745,6 +745,7 @@ body.editor{height:100%;overflow:hidden;}
 .icon-save{background-position:0 0;background-image:url('/images/icons/save.png');height:16px;width:16px;}
 .icon-compile{background-position:0 0;background-image:url('/images/icons/render.png');height:16px;width:16px;}
 .image-viewer{text-align:center;}.image-viewer img{max-width:90%;max-height:80%;margin:10px 0;border:1px solid #555555;}
+.test-dialog{position:absolute;right:10px;bottom:10px;z-index:1000;max-height:200px;width:500px;overflow:scroll;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}
