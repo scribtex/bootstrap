@@ -742,13 +742,13 @@ body.application{background-image:url(/images/background-gradient.png);backgroun
 body.editor{height:100%;overflow:hidden;}
 .toolbar{padding:8px 10px;border-bottom:1px solid #555555;background-color:white;}.toolbar .save-message{padding-left:5px;}
 .toolbar .brand{padding-bottom:8px;font-size:14px;color:#333333;}
-.icon-save{background-position:0 0;background-image:url('/images/icons/save.png');height:16px;width:16px;}
-.icon-compile{background-position:0 0;background-image:url('/images/icons/render.png');height:16px;width:16px;}
+.icon-save{background-position:0 0;background-image:url('/editor/images/icons/disk.png');height:16px;width:16px;}
+.icon-compile{background-position:0 0;background-image:url('/editor/images/icons/page_go.png');height:16px;width:16px;}
 .image-viewer{text-align:center;}.image-viewer img{max-width:90%;max-height:80%;margin:10px 0;border:1px solid #555555;}
 .test-dialog{position:absolute;right:10px;bottom:10px;z-index:1000;max-height:200px;width:500px;overflow:scroll;}
 .full-page-pdf-tabs{padding:8px 8px 0px 8px;margin-bottom:0;}.full-page-pdf-tabs li{float:right;}
 .pdf-tab-pane embed{width:100%;}
-.file-list-wrapper{border:1px solid #999999;height:200px;overflow:scroll;}.file-list-wrapper .file-list .file-list-entry{cursor:pointer;padding:3px 6px;}
+.file-list-wrapper{overflow:scroll;border:1px solid #999999;height:200px;position:relative;}.file-list-wrapper .file-list{position:relative;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;}.file-list-wrapper .file-list .file-list-entry{cursor:pointer;padding:3px 6px;}.file-list-wrapper .file-list .file-list-entry .file-icon{vertical-align:text-top;}
 .file-list-wrapper .file-list .selected{background-color:#346cb7;color:white;}
 .pull-right{float:right;}
 .pull-left{float:left;}

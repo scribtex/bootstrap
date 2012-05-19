@@ -20,16 +20,15 @@ body.editor {
   }
 }
 
-
 .icon-save {
   background-position : 0 0;
-  background-image: url('/images/icons/save.png');
+  background-image: url('/editor/images/icons/disk.png');
   height: 16px;
   width: 16px;
 }
 .icon-compile {
   background-position : 0 0;
-  background-image: url('/images/icons/render.png');
+  background-image: url('/editor/images/icons/page_go.png');
   height: 16px;
   width: 16px;
 }
@@ -70,20 +69,29 @@ body.editor {
 }
 
 .file-list-wrapper {
-	border: 1px solid @grayLight;
-	height: 200px;
-	overflow: scroll;
-	.file-list {
-		.file-list-entry {
-			cursor: pointer;
-			padding: 3px 6px;
-		}
+  overflow: scroll;
+  border: 1px solid @grayLight;
+  height: 200px;
+  position:relative;
 
-		.selected {
-			background-color: @mainBlue;
-			color: white;
-		}
-	}
+  .file-list {
+    position: relative;
+    .user-select(none);
+
+    .file-list-entry {
+      .file-icon {
+        vertical-align: text-top;
+      }
+
+      cursor: pointer;
+      padding: 3px 6px;
+    }
+
+    .selected {
+      background-color: @mainBlue;
+      color: white;
+    }
+  }
 }
 
 

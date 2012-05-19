@@ -4242,13 +4242,13 @@ body.editor {
 }
 .icon-save {
   background-position: 0 0;
-  background-image: url('/images/icons/save.png');
+  background-image: url('/editor/images/icons/disk.png');
   height: 16px;
   width: 16px;
 }
 .icon-compile {
   background-position: 0 0;
-  background-image: url('/images/icons/render.png');
+  background-image: url('/editor/images/icons/page_go.png');
   height: 16px;
   width: 16px;
 }
@@ -4281,13 +4281,24 @@ body.editor {
   width: 100%;
 }
 .file-list-wrapper {
+  overflow: scroll;
   border: 1px solid #999999;
   height: 200px;
-  overflow: scroll;
+  position: relative;
+}
+.file-list-wrapper .file-list {
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 .file-list-wrapper .file-list .file-list-entry {
   cursor: pointer;
   padding: 3px 6px;
+}
+.file-list-wrapper .file-list .file-list-entry .file-icon {
+  vertical-align: text-top;
 }
 .file-list-wrapper .file-list .selected {
   background-color: #346cb7;
