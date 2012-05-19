@@ -4280,19 +4280,6 @@ body.editor {
 .pdf-tab-pane embed {
   width: 100%;
 }
-.file-list-wrapper {
-  border: 1px solid #999999;
-  height: 200px;
-  overflow: scroll;
-}
-.file-list-wrapper .file-list .file-list-entry {
-  cursor: pointer;
-  padding: 3px 6px;
-}
-.file-list-wrapper .file-list .selected {
-  background-color: #346cb7;
-  color: white;
-}
 .pull-right {
   float: right;
 }

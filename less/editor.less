@@ -53,3 +53,37 @@ body.editor {
   width: 500px;
   overflow: scroll;
 }
+
+.full-page-pdf-tabs {
+  padding: 8px 8px 0px 8px;
+  margin-bottom: 0;
+
+  li {
+    float: right;
+  }
+}
+
+.pdf-tab-pane {
+  embed {
+    width: 100%;
+  }
+}
+
+.file-list-wrapper {
+	border: 1px solid @grayLight;
+	height: 200px;
+	overflow: scroll;
+	.file-list {
+		.file-list-entry {
+			cursor: pointer;
+			padding: 3px 6px;
+		}
+
+		.selected {
+			background-color: @mainBlue;
+			color: white;
+		}
+	}
+}
+
+

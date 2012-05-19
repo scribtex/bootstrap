@@ -4270,6 +4270,29 @@ body.editor {
   width: 500px;
   overflow: scroll;
 }
+.full-page-pdf-tabs {
+  padding: 8px 8px 0px 8px;
+  margin-bottom: 0;
+}
+.full-page-pdf-tabs li {
+  float: right;
+}
+.pdf-tab-pane embed {
+  width: 100%;
+}
+.file-list-wrapper {
+  border: 1px solid #999999;
+  height: 200px;
+  overflow: scroll;
+}
+.file-list-wrapper .file-list .file-list-entry {
+  cursor: pointer;
+  padding: 3px 6px;
+}
+.file-list-wrapper .file-list .selected {
+  background-color: #346cb7;
+  color: white;
+}
 .pull-right {
   float: right;
 }
