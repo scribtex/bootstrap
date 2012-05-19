@@ -4246,9 +4246,9 @@ body.editor {
   height: 16px;
   width: 16px;
 }
-.icon-compile {
+.icon-open {
   background-position: 0 0;
-  background-image: url('/editor/images/icons/page_go.png');
+  background-image: url('/editor/images/icons/folder_page_white.png');
   height: 16px;
   width: 16px;
 }

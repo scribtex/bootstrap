@@ -743,7 +743,7 @@ body.editor{height:100%;overflow:hidden;}
 .toolbar{padding:8px 10px;border-bottom:1px solid #555555;background-color:white;}.toolbar .save-message{padding-left:5px;}
 .toolbar .brand{padding-bottom:8px;font-size:14px;color:#333333;}
 .icon-save{background-position:0 0;background-image:url('/editor/images/icons/disk.png');height:16px;width:16px;}
-.icon-compile{background-position:0 0;background-image:url('/editor/images/icons/page_go.png');height:16px;width:16px;}
+.icon-open{background-position:0 0;background-image:url('/editor/images/icons/folder_page_white.png');height:16px;width:16px;}
 .image-viewer{text-align:center;}.image-viewer img{max-width:90%;max-height:80%;margin:10px 0;border:1px solid #555555;}
 .test-dialog{position:absolute;right:10px;bottom:10px;z-index:1000;max-height:200px;width:500px;overflow:scroll;}
 .full-page-pdf-tabs{padding:8px 8px 0px 8px;margin-bottom:0;}.full-page-pdf-tabs li{float:right;}
