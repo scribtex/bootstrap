@@ -4229,7 +4229,6 @@ body.editor {
 }
 .toolbar {
   padding: 8px 10px;
-  border-bottom: 1px solid #555555;
   background-color: white;
 }
 .toolbar .save-message {
@@ -4279,6 +4278,9 @@ body.editor {
 }
 .pdf-tab-pane embed {
   width: 100%;
+}
+.editor-tabs {
+  margin-bottom: 0;
 }
 .file-list-wrapper {
   overflow: scroll;
