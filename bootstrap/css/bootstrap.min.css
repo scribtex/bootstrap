@@ -739,7 +739,7 @@ body.application{background-image:url(/images/background-gradient.png);backgroun
 .fieldWithErrors{display:inline;}.fieldWithErrors>label,.fieldWithErrors .help-block,.fieldWithErrors .help-inline{color:#b94a48;}
 .fieldWithErrors input,.fieldWithErrors select,.fieldWithErrors textarea{color:#b94a48;border-color:#b94a48;}.fieldWithErrors input:focus,.fieldWithErrors select:focus,.fieldWithErrors textarea:focus{border-color:#953b39;-webkit-box-shadow:0 0 6px #d59392;-moz-box-shadow:0 0 6px #d59392;box-shadow:0 0 6px #d59392;}
 .fieldWithErrors .input-prepend .add-on,.fieldWithErrors .input-append .add-on{color:#b94a48;background-color:#f2dede;border-color:#b94a48;}
-body.editor{height:100%;overflow:hidden;}
+body.no-bounce{height:100%;overflow:hidden;}
 .toolbar{padding:8px 8px;background-color:white;}.toolbar .save-message{padding-left:5px;}
 .toolbar .brand{padding-bottom:8px;font-size:14px;color:#333333;}
 .icon-save{background-position:0 0;background-image:url('/editor/images/icons/disk.png');height:16px;width:16px;}
