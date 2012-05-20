@@ -4,7 +4,7 @@ body.editor {
 }
 
 .toolbar {
-  padding : 8px 10px;
+  padding : 8px 8px;
 
   background-color: white;
 
@@ -69,6 +69,16 @@ body.editor {
 
 .editor-tabs {
   margin-bottom: 0;
+
+  .tab-close {
+    .opacity(60);
+    cursor: pointer;
+    margin-left: 5px;
+
+    &:hover {
+      .opacity(100);
+    }
+  } 
 }
 
 .file-list-wrapper {
